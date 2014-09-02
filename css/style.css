@@ -598,6 +598,100 @@ input.gn-search:focus {
 	margin-bottom: 30px;
 }
 
+.caption {
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	overflow: hidden;
+	background: rgba(0,0,0,0.2);
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background 0.3s ease-in-out;
+}
+
+.caption:hover {
+	background: rgba(0,0,0,0);
+}
+
+.caption img {
+	display: block;
+	max-width: 100%;
+	-webkit-transition: -webkit-transform 0.4s ease-in-out;
+	-moz-transition: -moz-transform 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out;
+}
+
+.caption:hover img {
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.caption::before,
+.caption::after {
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	background: #16a085;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out;
+	-moz-transition: -moz-transform 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out;
+}
+
+.caption::before {
+	content: attr(data-title);
+	height: 30%;
+	color: #0F6D5B;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 30px;
+}
+
+.caption::after {
+	content: '\201C' attr(data-description) '\201D';
+	top: 30%;
+	height: 70%;
+	color: #fff;
+	font-size: 14px;
+	padding: 20px 30px;
+}
+
+.caption:hover::before,
+.caption:hover::after {
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.tag span {
+	margin-right: 7px;
+	text-transform: uppercase;
+}
+
+.label {
+display: inline;
+padding: .2em .6em .3em;
+font-size: 75%;
+font-weight: normal;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;
+}
+
+.label-default {
+background-color: #16a085;
+}
+
+.img-responsive {
+	width:100%;
+}
+
 /* ===========================
 --- Contact
 ============================ */
@@ -893,3 +987,5 @@ footer a:hover {
 	}
 	
 }
+
+/* News */
