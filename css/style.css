@@ -454,10 +454,10 @@ input.gn-search:focus {
 	position:relative;
 }
 
-#intro{	
+/*#intro{	
 	background-image: url(../img/animation/portada.jpg);
 	background-size: cover;
-}
+}*/
 
 .intro .slogan {
 	padding:250px 0 60px;
@@ -541,26 +541,38 @@ input.gn-search:focus {
 }
 
 .team-social li{
-    display: inline-block;
+  display: inline-block;
 	margin:0 !important;
 	padding:0;
 }
 
 
-.team-social a{
-	margin:0;
+.facebook:hover { color: #fff }
+.facebook:hover > i { color: #3b5998; }
+
+.linkedin:hover { color: #fff }
+.linkedin:hover > i { color: #4875B4; }
+
+.google-plus:hover { color: #fff }
+.google-plus:hover > i { color: #C63D2D; }
+
+.github:hover { color: #fff }
+.github:hover > i { color: black; }
+
+a.team-social {
+  margin:0;
 	padding:0;
-    display: block;
+  display: block;
 	width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
-	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: grey;
+	color: grey;
+  -webkit-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
-.team-social a i{
+.team-social a i {
 	text-align: center;
 	margin:0;
 	padding:0;
@@ -575,8 +587,9 @@ input.gn-search:focus {
 .team-social .social-twitter a:hover{background: #82e6ff;}
 .team-social .social-dribble a:hover{background: #f769a0;}
 .team-social .social-deviantart a:hover{background: #adc376;}
-.team-social .social-google a:hover{background: #333;}
+.team-social .social-google a:hover{background: #C63D2D;}
 .team-social .social-vimeo a:hover{background: #71c6f3;}
+.team-social .social-linkedin a:hover{background: #4875B4;}
 
 
 /* ===========================
@@ -725,7 +738,6 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 	margin-top: 30px;
 }
 
-
 .company-social {
 	margin-left: 0;
 	padding-left: 0;
@@ -737,7 +749,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 .company-social li{
-    display: inline-block;
+  display: inline-block;
 	margin:0 !important;
 	padding:0;
 }
@@ -746,12 +758,12 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .company-social a{
 	margin:0;
 	padding:0;
-    display: block;
+  display: block;
 	width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #3bbec0;
 	color: #fff;
     -webkit-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -765,14 +777,16 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .company-social .social-twitter a{background: #62c6f8;}
 .company-social .social-dribble a{background: #d74980;}
 .company-social .social-deviantart a{background: #8da356;}
-.company-social .social-google a{background: #000;}
+.company-social .social-google a{background: #C63D2D;}
 .company-social .social-vimeo a{background: #51a6d3;}
+.company-social .social-linkedin a{background: #4875B4;}
 .company-social .social-facebook a:hover{background: #4893ce;}
 .company-social .social-twitter a:hover{background: #82e6ff;}
 .company-social .social-dribble a:hover{background: #f769a0;}
 .company-social .social-deviantart a:hover{background: #adc376;}
-.company-social .social-google a:hover{background: #333;}
+.company-social .social-google a:hover{background: #F84935;}
 .company-social .social-vimeo a:hover{background: #71c6f3;}
+.company-social .social-linkedin a:hover{background: #6E96CD;}
 
 
 
