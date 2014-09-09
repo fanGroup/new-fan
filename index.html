@@ -11,7 +11,7 @@
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/lightbox.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
@@ -25,6 +25,14 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <script type="text/javascript" charset="utf-8" src="js/index_edgePreload.js"></script>
+
+  <style>
+    .edgeLoad-EDGE-595407986 { visibility:hidden; }
+  </style>
+
 </head><!--/head-->
 
 <body>
@@ -35,35 +43,16 @@
 
   <header id="home">
     <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="item active" style="background-image: url(images/slider/1.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Welcome to <span>Oxygen</span></h1>
-            <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
-          </div>
+      <div id="Stage" class="EDGE-595407986">
+        <div class="carousel-inner">
+          <div class="item active" style="background-image: url(images/portada1080.jpg)">
+            <div class="caption">
+            </div>
+          </div> 
         </div>
-        <div class="item" style="background-image: url(images/slider/2.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Say Hello to <span>Oxygen</span></h1>
-            <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
-          </div>
-        </div>
-        <div class="item" style="background-image: url(images/slider/3.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">We are <span>Creative</span></h1>
-            <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
-          </div>
-        </div>
+        <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
       </div>
-      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
-      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
-
-    </div><!--/#home-slider-->
+    </div>  <!--/#home-slider-->
     <div class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="navbar-header">
