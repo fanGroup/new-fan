@@ -869,6 +869,28 @@ section {
   padding-top: 95px;
 }
 
+.label {
+  display: inline;
+  padding: .2em .4em .2em;
+  font-size: 75%;
+  font-weight: normal;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .30em;
+}
+
+.label-default {
+  /*background-color: #16a085;*/
+  background-color: rgba(0,0,0,.2);
+}
+
+#footer .label a .a:hover {
+  background-color: #3b5999;
+}
+
 .form-control {
   background-color: transparent;
   border-color: rgba(255,255,255,.1);
