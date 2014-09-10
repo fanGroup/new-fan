@@ -601,7 +601,7 @@ section {
 }
 
 #team .img-responsive {
-  margin-left: 32px;
+  margin-left: 3px;
   height: 295px;
   width: 295px;
   border-radius: 155px;
@@ -1010,5 +1010,3 @@ ul.address {
 }
 
 /*Presets*/
-
-
