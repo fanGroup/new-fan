@@ -582,11 +582,12 @@ section {
 }
 
 #team .img-responsive {
-  height: 350px;
-  width: 350px;
-  border-radius: 175px;
-  -webkit-border-radius: 175px;
-  -moz-border-radius: 175px;
+  margin-left: 35px;
+  height: 280px;
+  width: 280px;
+  border-radius: 155px;
+  -webkit-border-radius: 155px;
+  -moz-border-radius: 155px;
 }
 
 .member-info h3 {
