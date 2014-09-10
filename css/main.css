@@ -1166,6 +1166,9 @@ h5 {
 }
 .team-member .icons-wrapper a:hover {
   color: #444;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
 }
 .team-member .light-team-icons a {
   color: #fff;
