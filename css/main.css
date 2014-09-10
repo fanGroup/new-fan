@@ -15,13 +15,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 40px;  
+  margin-bottom: 20px;  
 }
 
 h3 {
   font-size: 18px;
 }
+
+hr{    
+  height: 2.5px;  
+  width: 85px;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-top: -10px;
+  background-color: #e7e7e7;
+}  
+
+.about-info hr{    
+  height: 2.5px;  
+  width: 85px;
+  margin-left: 45px;
+  margin-right: auto;  
+  margin-top: -10px;
+  background-color: #e7e7e7;
+}  
 
 .parallax {
   background-size: cover;
@@ -338,10 +356,11 @@ section {
 **************************/
 #about-us {
   background-image: url(../images/about-bg.jpg);
-  padding: 60px 0;
+  padding: 50px 0;
 }
 
 #about-us h2 {
+  font-size: 40px;
   margin-top: 0;
   color: #fff;
 }
@@ -582,9 +601,9 @@ section {
 }
 
 #team .img-responsive {
-  margin-left: 35px;
-  height: 280px;
-  width: 280px;
+  margin-left: px;
+  height: 295px;
+  width: 295px;
   border-radius: 155px;
   -webkit-border-radius: 155px;
   -moz-border-radius: 155px;
