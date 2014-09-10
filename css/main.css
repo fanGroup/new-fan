@@ -1040,16 +1040,7 @@ h5 {
 /* ==========================================================================
    Team Section
    ========================================================================== */
-.team-section {
-  width: 100%;
-  min-width: 100%;
-  text-align: center;
-  padding: 120px 0;
-  position: relative;
-}
-.team-section .special-heading {
-  margin-bottom: 50px;
-}
+
 .team-member {
   margin: 0 40px 40px;
   padding: 10px;
@@ -1126,8 +1117,8 @@ h5 {
 }
 .team-member .profile-picture img {
   width: 100%;
-  height: auto;
-  -webkit-border-radius: 50%;
+  height: 100%;
+  -webkit-border-radius: 80%;
 }
 .team-member h3 {
   font-size: 1.75em;
