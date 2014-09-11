@@ -30,7 +30,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
          	var parent = sym.$("Stage").parent();
          	var parentWidth = stage.parent().width();
          	var stageWidth = stage.width();
-         	var desiredWidth = Math.round(parentwidth * 1);
+         	var desiredWidth = Math.round(parentWidth * 1);
          	var rescale = (desiredWidth / stageWidth);
          
          	stage.css('transform','scale(' + rescale + ')');
