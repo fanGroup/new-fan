@@ -7,7 +7,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #666;
-  background-color: #fff;
+  background-color: #dbedb4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,12 +24,12 @@ h3 {
 }
 
 hr{    
-  height: 2.5px;  
+  height: 3.7px;  
   width: 85px;
   margin-left: auto;
   margin-right: auto;  
   margin-top: -10px;
-  background-color: #e7e7e7;
+  background-color: #7eec26;
 }  
 
 .about-info hr{    
@@ -1159,10 +1159,9 @@ ul.address {
 
 h5 {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Kaushan Script', cursive;
-  font-weight: 700;
-  color: #282828;
+  font-weight: 700;  
 }
 /* -----------------------------------------------------------------------------------------------------*/
 
