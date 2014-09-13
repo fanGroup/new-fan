@@ -392,11 +392,44 @@ section {
   font-weight: 600;
 }
 
-
 .progress .progress-bar.six-sec-ease-in-out {
   -webkit-transition: width 2s ease-in-out;
   transition:  width 2s ease-in-out;
 }
+
+
+
+
+
+
+
+/***************************************/
+
+.next, .prev {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    margin-top: -.75em;
+    user-select: none;
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.next:hover, .prev:hover, .quote-next:hover, .quote-prev:hover{
+    cursor: pointer;
+    color: #6dbeaa;
+}
+
+.next, .quote-next {
+    right: 150px;
+}
+.prev, .quote-prev{
+    left: 150px;
+}
+
 
 /*************************
 ********portfolio CSS*****
